@@ -4,14 +4,14 @@ if (isset($_POST["txNIM"])) {
 
     $nim = $_POST["txNIM"];
     $nama = $_POST["txNAMA"];
+    $jurusan = $_POST["txJURUSAN"];
     $jenisK = $_POST["txJK"];
     $tglL = $_POST["txTGL"];
-    $jurusan = $_POST["txJURUSAN"];
     $PASSS = $_POST["txPASS"];
 }
 
 $sql_insert = "INSERT INTO `mhs`(`NIM`, `NAMA`, `jurusan`, `Jk`, `TGL_LARHIR`, `PASSCODE`) VALUES 
-('" . $nim . "','" . $nama . "','" . $jenisK . "','" . $tglL . "','" . $jurusan . "','" . $PASSS . "');";
+('" . $nim . "','" . $nama . "','" . $jurusan . "','" . $jenisK . "','" . $tglL . "','" . $PASSS . "');";
 
 
 
