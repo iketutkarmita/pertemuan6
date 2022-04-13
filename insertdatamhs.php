@@ -20,6 +20,13 @@
         <div>
             <input type="text" name="txNAMA">
         </div>
+        JURUSAN
+        <div>
+            <select name="txJURUSAN">
+                <option value="MTI">MTI</option>
+                <option value="KAB">KAB</option>
+            </select>
+        </div>
         JENIS KELAMIN
         <div>
             <input type="text" name="txJK">
@@ -28,13 +35,7 @@
         <div>
             <input type="date" name="txTGL">
         </div>
-        JURUSAN
-        <div>
-            <select type="text" name="txJURUSAN">
-                <option value="MTI">MTI</option>
-                <option value="MTI">KAB</option>
-            </select>
-        </div>
+
         PASSCODE
         <div>
             <input type="password" name="txPASS">
